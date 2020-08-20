@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "260492741483",
+    "firebase_url": "https://eskripsi-7c2eb.firebaseio.com",
+    "project_id": "eskripsi-7c2eb",
+    "storage_bucket": "eskripsi-7c2eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:260492741483:android:6b8d2ad02d7572ace09a2e",
+        "android_client_info": {
+          "package_name": "com.harun.al.rosyid.eskripsi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "260492741483-dkeh1utbpb2d6974tlvstb63ia3utstb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.harun.al.rosyid.eskripsi",
+            "certificate_hash": "5dd84be30512f3e3b21136949679dad4d15d0413"
+          }
+        },
+        {
+          "client_id": "260492741483-q5di1v18tuvequ1s8623611d8sitmplf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyp-glObPI6ioi1nHPDtcPNOEfXbj3z2s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "260492741483-q5di1v18tuvequ1s8623611d8sitmplf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

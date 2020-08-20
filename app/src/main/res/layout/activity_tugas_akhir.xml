@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.tugasAkhir.TugasAkhirReadActivity">
+
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Daftar Pengajuan Judul"
+        android:textAlignment="center"
+        android:textSize="15dp" />
+
+
+    <ProgressBar
+
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_below="@id/judul"
+
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:progressTint="@color/colorPrimary"
+        tools:layout_editor_absoluteX="181dp"
+        tools:layout_editor_absoluteY="64dp"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/judul"
+        android:background="@color/white"
+        tools:ignore="MissingConstraints"/>
+
+</RelativeLayout>
